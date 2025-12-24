@@ -1,18 +1,16 @@
 {
-  "name": "layout-control",
-  "main": "./lib/layout-control",
+  "name": "quick-layout",
+  "main": "./lib/main",
   "version": "0.1.5",
-  "description": "Layout manager with Sublime Text-like shortcuts and commands featuring columns, rows, and grid.",
+  "description": "Quick access to predefined layouts",
   "keywords": [
     "layout",
-    "columns",
-    "rows",
     "panes"
   ],
-  "repository": "https://github.com/rafamel/atom-layout-control",
+  "repository": "https://github.com/asiloisad/pulsar-quick-layout",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.100.0 <2.0.0"
   },
   "dependencies": {}
 }
