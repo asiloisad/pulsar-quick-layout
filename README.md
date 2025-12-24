@@ -1,6 +1,42 @@
 # quick-layout
 
-Quick access to predefined layouts.
+Quick access to predefined pane layouts and dock toggles.
+
+## Features
+
+- Title bar buttons for quick layout switching (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar) package)
+- Dock toggle buttons (left, bottom, right)
+- Layout buttons (1 pane, 2 columns, 3 columns, 2x2 grid)
+- All actions available as commands with keybinding support
+
+## Commands
+
+### Dock Toggles
+
+| Command | Description |
+|---------|-------------|
+| `quick-layout:toggle-left-dock` | Toggle left dock visibility |
+| `quick-layout:toggle-bottom-dock` | Toggle bottom dock visibility |
+| `quick-layout:toggle-right-dock` | Toggle right dock visibility |
+
+### Layout Commands
+
+| Command | Description |
+|---------|-------------|
+| `quick-layout:one-pane` | Single pane layout |
+| `quick-layout:two-columns` | Two columns side by side |
+| `quick-layout:three-columns` | Three columns side by side |
+| `quick-layout:four-columns` | Four columns side by side |
+| `quick-layout:two-rows` | Two rows stacked |
+| `quick-layout:three-rows` | Three rows stacked |
+| `quick-layout:grid` | 2x2 grid layout |
+
+## Configuration
+
+| Option | Description | Default |
+|--------|-------------|---------|
+| Show Dock Toggle Buttons | Show dock toggle buttons in title bar | `true` |
+| Show Layout Buttons | Show layout buttons in title bar | `true` |
 
 ## Installation
 
