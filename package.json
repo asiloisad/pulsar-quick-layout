@@ -19,5 +19,21 @@
       }
     }
   },
+  "configSchema": {
+    "showDockButtons": {
+      "order": 1,
+      "title": "Show Dock Toggle Buttons",
+      "description": "Show dock toggle buttons (left, bottom, right) in the title bar.",
+      "type": "boolean",
+      "default": true
+    },
+    "showLayoutButtons": {
+      "order": 2,
+      "title": "Show Layout Buttons",
+      "description": "Show layout buttons (1 pane, 2 columns, 3 columns, grid) in the title bar.",
+      "type": "boolean",
+      "default": true
+    }
+  },
   "dependencies": {}
 }
