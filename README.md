@@ -5,9 +5,10 @@ Quick access to predefined pane layouts and dock toggles.
 ## Features
 
 - Title bar buttons for quick layout switching (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar) package)
+- Buttons are visible on hover (it can customized in styles.less)
 - Dock toggle buttons (left, bottom, right)
 - Layout buttons (1 pane, 2 columns, 3 columns, 2x2 grid)
-- All actions available as commands with keybinding support
+- All actions available as commands
 
 ## Installation
 
