@@ -2,6 +2,8 @@
 
 Quick access to predefined pane layouts and dock toggles.
 
+![demo](https://github.com/asiloisad/pulsar-quick-layout/blob/master/assets/buttons.png?raw=true)
+
 ## Features
 
 - Title bar buttons for quick layout switching (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar) package)
