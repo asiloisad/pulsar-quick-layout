@@ -9,6 +9,10 @@ Quick access to predefined pane layouts and dock toggles.
 - Layout buttons (1 pane, 2 columns, 3 columns, 2x2 grid)
 - All actions available as commands with keybinding support
 
+## Installation
+
+To install `quick-layout` search for [quick-layout](https://web.pulsar-edit.dev/packages/quick-layout) in the Install pane of the Pulsar settings or run `ppm install quick-layout`. Alternatively, you can run `ppm install asiloisad/pulsar-quick-layout` to install a package directly from the GitHub repository.
+
 ## Commands
 
 ### Dock Toggles
@@ -30,17 +34,6 @@ Quick access to predefined pane layouts and dock toggles.
 | `quick-layout:two-rows` | Two rows stacked |
 | `quick-layout:three-rows` | Three rows stacked |
 | `quick-layout:grid` | 2x2 grid layout |
-
-## Configuration
-
-| Option | Description | Default |
-|--------|-------------|---------|
-| Show Dock Toggle Buttons | Show dock toggle buttons in title bar | `true` |
-| Show Layout Buttons | Show layout buttons in title bar | `true` |
-
-## Installation
-
-To install `quick-layout` search for [quick-layout](https://web.pulsar-edit.dev/packages/quick-layout) in the Install pane of the Pulsar settings or run `ppm install quick-layout`. Alternatively, you can run `ppm install asiloisad/pulsar-quick-layout` to install a package directly from the GitHub repository.
 
 # Contributing
 

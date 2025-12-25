@@ -1,38 +1,23 @@
-@import "ui-variables";
-
-.quick-layout-dock-toggles,
-.quick-layout-layouts {
+.quick-layout {
   display: flex;
   align-items: center;
   height: 100%;
-  gap: 2px;
   flex-shrink: 0;
-}
 
-.quick-layout-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 100%;
-  padding: 0;
-  padding-top: 4px;
-  border: none;
-  background: transparent;
-  color: @text-color-subtle;
-  cursor: default;
-  transition: background-color 0.1s ease, color 0.1s ease;
-
-  svg {
-    display: block;
-  }
-
-  &:hover {
-    background-color: fade(@text-color, 10%);
-    color: @text-color;
-  }
-
-  &:active {
-    background-color: fade(@text-color, 6%);
+  .inline-block {
+    width: 28px;
   }
 }
+
+// // show only on hover
+// .quick-layout {
+//   opacity: 0;
+//   transition: opacity 0.15s ease;
+//   pointer-events: none;
+// }
+// .title-bar .control-tiles:hover {
+//   .quick-layout {
+//     opacity: 1;
+//     pointer-events: auto;
+//   }
+// }
