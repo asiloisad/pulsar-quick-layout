@@ -1,16 +1,15 @@
 # quick-layout
 
-Quick access to predefined pane layouts and dock toggles.
+Quick access to predefined pane layouts and dock toggles. Add buttons to the title bar for fast layout switching.
 
 ![demo](https://github.com/asiloisad/pulsar-quick-layout/blob/master/assets/buttons.png?raw=true)
 
 ## Features
 
-- Title bar buttons for quick layout switching (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar) package)
-- Buttons are visible on hover (it can customized in styles.less)
-- Dock toggle buttons (left, bottom, right)
-- Layout buttons (1 pane, 2 columns, 3 columns, 2x2 grid)
-- All actions available as commands
+- **Title bar buttons**: Quick layout switching (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar)).
+- **Dock toggles**: Left, bottom, and right dock visibility.
+- **Layout presets**: 1-4 columns, 1-3 rows, and 2x2 grid.
+- **Hover reveal**: Buttons appear on title bar hover.
 
 ## Installation
 
@@ -18,26 +17,19 @@ To install `quick-layout` search for [quick-layout](https://web.pulsar-edit.dev/
 
 ## Commands
 
-### Dock Toggles
+Commands available in `atom-workspace`:
 
-| Command | Description |
-|---------|-------------|
-| `quick-layout:toggle-left-dock` | Toggle left dock visibility |
-| `quick-layout:toggle-bottom-dock` | Toggle bottom dock visibility |
-| `quick-layout:toggle-right-dock` | Toggle right dock visibility |
+- `quick-layout:toggle-left-dock`: toggle left dock visibility,
+- `quick-layout:toggle-bottom-dock`: toggle bottom dock visibility,
+- `quick-layout:toggle-right-dock`: toggle right dock visibility,
+- `quick-layout:one-pane`: single pane layout,
+- `quick-layout:two-columns`: two columns side by side,
+- `quick-layout:three-columns`: three columns side by side,
+- `quick-layout:four-columns`: four columns side by side,
+- `quick-layout:two-rows`: two rows stacked,
+- `quick-layout:three-rows`: three rows stacked,
+- `quick-layout:grid`: 2x2 grid layout.
 
-### Layout Commands
+## Contributing
 
-| Command | Description |
-|---------|-------------|
-| `quick-layout:one-pane` | Single pane layout |
-| `quick-layout:two-columns` | Two columns side by side |
-| `quick-layout:three-columns` | Three columns side by side |
-| `quick-layout:four-columns` | Four columns side by side |
-| `quick-layout:two-rows` | Two rows stacked |
-| `quick-layout:three-rows` | Three rows stacked |
-| `quick-layout:grid` | 2x2 grid layout |
-
-# Contributing
-
-Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback's welcome!
