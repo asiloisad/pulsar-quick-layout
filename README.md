@@ -4,6 +4,8 @@ Quick access to predefined pane layouts and dock toggles. Add buttons to the tit
 
 ![demo](https://github.com/asiloisad/pulsar-quick-layout/blob/master/assets/buttons.png?raw=true)
 
+Fork of [layout-control](https://github.com/rafamel/atom-layout-control).
+
 ## Features
 
 - **Title bar buttons**: Quick layout switching (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar)).

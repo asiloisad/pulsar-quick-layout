@@ -1,17 +1,17 @@
 {
   "name": "quick-layout",
-  "main": "./lib/main",
-  "version": "0.2.4",
   "description": "Quick access to predefined layouts",
+  "repository": "https://github.com/asiloisad/pulsar-quick-layout",
   "keywords": [
     "layout",
     "panes"
   ],
-  "repository": "https://github.com/asiloisad/pulsar-quick-layout",
+  "version": "0.2.4",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
+  "main": "./lib/main",
   "consumedServices": {
     "title-bar": {
       "versions": {
@@ -34,6 +34,5 @@
       "type": "boolean",
       "default": true
     }
-  },
-  "dependencies": {}
+  }
 }
