@@ -30,7 +30,36 @@ Commands available in `atom-workspace`:
 - `quick-layout:four-columns`: four columns side by side,
 - `quick-layout:two-rows`: two rows stacked,
 - `quick-layout:three-rows`: three rows stacked,
-- `quick-layout:grid`: 2x2 grid layout.
+- `quick-layout:grid`: 2x2 grid layout,
+- `quick-layout:redistribute`: equally redistribute all center items across existing panes.
+
+Hold <kbd>Ctrl</kbd> while clicking a layout button to automatically redistribute items after the layout change.
+
+When switching to a layout with fewer panes, the active item from the previously active pane stays focused.
+
+## Customization
+
+The style can be adjusted according to user preferences in the `styles.less` file:
+
+- e.g. make buttons visible all the time instead of only on hover:
+  ```less
+  .quick-layout {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  ```
+
+- e.g. hide dock toggle buttons but keep layout buttons (or vice versa):
+  ```less
+  .quick-layout-toggles {
+    display: none;
+  }
+  ```
+  ```less
+  .quick-layout-layouts {
+    display: none;
+  }
+  ```
 
 ## Contributing
 
