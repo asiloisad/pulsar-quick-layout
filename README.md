@@ -31,9 +31,10 @@ Commands available in `atom-workspace`:
 - `quick-layout:two-rows`: two rows stacked,
 - `quick-layout:three-rows`: three rows stacked,
 - `quick-layout:grid`: 2x2 grid layout,
-- `quick-layout:redistribute`: equally redistribute all center items across existing panes.
+- `quick-layout:redistribute`: equally redistribute all center items across existing panes,
+- `quick-layout:sequentize`: assign 1 item per pane, overflow goes to the first pane.
 
-Right-click a layout button to automatically redistribute items after the layout change.
+Right-click a layout button to automatically redistribute items after the layout change. Middle-click to sequentize instead.
 
 When switching to a layout with fewer panes, the active item from the previously active pane stays focused.
 
