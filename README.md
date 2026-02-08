@@ -51,6 +51,14 @@ The style can be adjusted according to user preferences in the `styles.less` fil
   }
   ```
 
+- e.g. show four-columns and grid-3x3 buttons (hidden by default):
+  ```less
+  #quick-layout-four-columns,
+  #quick-layout-grid-3x3 {
+    display: inline-block;
+  }
+  ```
+
 - e.g. hide a specific button by id (e.g. `#quick-layout-one-pane`, `#quick-layout-grid-2x2`):
   ```less
   #quick-layout-one-pane {
