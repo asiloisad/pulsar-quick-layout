@@ -30,7 +30,8 @@ Commands available in `atom-workspace`:
 - `quick-layout:four-columns`: four columns side by side,
 - `quick-layout:two-rows`: two rows stacked,
 - `quick-layout:three-rows`: three rows stacked,
-- `quick-layout:grid`: 2x2 grid layout,
+- `quick-layout:grid-two`: 2x2 grid layout,
+- `quick-layout:grid-three`: 3x3 grid layout,
 - `quick-layout:redistribute`: equally redistribute all center items across existing panes,
 - `quick-layout:sequentize`: assign 1 item per pane, overflow goes to the first pane.
 
