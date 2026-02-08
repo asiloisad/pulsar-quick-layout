@@ -33,7 +33,7 @@ Commands available in `atom-workspace`:
 - `quick-layout:grid`: 2x2 grid layout,
 - `quick-layout:redistribute`: equally redistribute all center items across existing panes.
 
-Hold <kbd>Ctrl</kbd> while clicking a layout button to automatically redistribute items after the layout change.
+Right-click a layout button to automatically redistribute items after the layout change.
 
 When switching to a layout with fewer panes, the active item from the previously active pane stays focused.
 
