@@ -51,6 +51,13 @@ The style can be adjusted according to user preferences in the `styles.less` fil
   }
   ```
 
+- e.g. hide a specific button by id (e.g. `#quick-layout-one-pane`, `#quick-layout-grid-2x2`):
+  ```less
+  #quick-layout-one-pane {
+    display: none;
+  }
+  ```
+
 - e.g. hide dock toggle buttons but keep layout buttons (or vice versa):
   ```less
   .quick-layout-toggles {

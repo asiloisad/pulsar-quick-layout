@@ -30,7 +30,7 @@
     "showLayoutButtons": {
       "order": 2,
       "title": "Show Layout Buttons",
-      "description": "Show layout buttons (1 pane, 2 columns, 3 columns, grid) in the title bar.",
+      "description": "Show layout buttons (1 pane, 2 columns, 3 columns, grid 2x2) in the title bar.",
       "type": "boolean",
       "default": true
     }
