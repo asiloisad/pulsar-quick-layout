@@ -1,0 +1,19 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Quick Layout'
+        submenu: [
+          { label: 'One Pane', command: 'quick-layout:one-pane' }
+          { label: 'Two Columns', command: 'quick-layout:two-columns' }
+          { label: 'Three Columns', command: 'quick-layout:three-columns' }
+          { label: 'Four Columns', command: 'quick-layout:four-columns' }
+          { type: 'separator' }
+          { label: 'Two Rows', command: 'quick-layout:two-rows' }
+          { label: 'Three Rows', command: 'quick-layout:three-rows' }
+        ]
+      }
+    ]
+  }
+]
