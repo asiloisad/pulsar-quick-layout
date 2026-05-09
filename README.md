@@ -8,7 +8,7 @@ Fork of [layout-control](https://github.com/rafamel/atom-layout-control).
 
 ## Features
 
-- **Title bar buttons**: Quick layout switching (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar)).
+- **Title bar buttons**: Quick layout switching with independent title-bar control tiles (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar)).
 - **Dock toggles**: Left, bottom, and right dock visibility.
 - **Layout presets**: 1-4 columns, 1-3 rows, and 2x2 grid.
 - **Hover reveal**: Buttons appear on title bar hover.
@@ -30,8 +30,8 @@ Commands available in `atom-workspace`:
 - `quick-layout:four-columns`: four columns side by side,
 - `quick-layout:two-rows`: two rows stacked,
 - `quick-layout:three-rows`: three rows stacked,
-- `quick-layout:grid-two`: 2x2 grid layout,
-- `quick-layout:grid-three`: 3x3 grid layout,
+- `quick-layout:grid-2x2`: 2x2 grid layout,
+- `quick-layout:grid-3x3`: 3x3 grid layout,
 - `quick-layout:redistribute`: equally redistribute all center items across existing panes,
 - `quick-layout:sequentize`: assign 1 item per pane, overflow goes to the first pane.
 
@@ -68,12 +68,12 @@ The style can be adjusted according to user preferences in the `styles.less` fil
 
 - e.g. hide dock toggle buttons but keep layout buttons (or vice versa):
   ```less
-  .quick-layout-toggles {
+  .quick-layout-toggle {
     display: none;
   }
   ```
   ```less
-  .quick-layout-layouts {
+  .quick-layout-layout {
     display: none;
   }
   ```
