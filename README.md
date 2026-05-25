@@ -8,7 +8,7 @@ Fork of [layout-control](https://github.com/rafamel/atom-layout-control).
 
 ## Features
 
-- **Title bar buttons**: Quick layout switching with independent title-bar control tiles (requires [title-bar](https://web.pulsar-edit.dev/packages/title-bar)).
+- **Title bar buttons**: Quick layout switching with independent title-bar control tiles (requires [title-bar](https://github.com/asiloisad/pulsar-title-bar)).
 - **Dock toggles**: Left, bottom, and right dock visibility.
 - **Layout presets**: 1-4 columns, 1-3 rows, and 2x2 grid.
 - **Hover reveal**: Buttons appear on title bar hover.
