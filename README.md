@@ -15,7 +15,7 @@ Fork of [layout-control](https://github.com/rafamel/atom-layout-control).
 
 ## Installation
 
-To install `quick-layout` search for [quick-layout](https://web.pulsar-edit.dev/packages/quick-layout) in the Install pane of the Pulsar settings or run `ppm install quick-layout`. Alternatively, you can run `ppm install asiloisad/pulsar-quick-layout` to install a package directly from the GitHub repository.
+To install `quick-layout` search for [quick-layout](https://web.pulsar-edit.dev/packages/quick-layout) in the Install pane of the Pulsar settings or run `ppm install quick-layout`. Alternatively, you can run `ppm install asiloisad-pulsar/quick-layout` to install a package directly from the GitHub repository.
 
 ## Commands
 
