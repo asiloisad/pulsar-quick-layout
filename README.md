@@ -2,13 +2,13 @@
 
 Quick access to predefined pane layouts and dock toggles. Add buttons to the title bar for fast layout switching.
 
-![demo](https://github.com/asiloisad/pulsar-quick-layout/blob/master/assets/buttons.png?raw=true)
+![demo](https://github.com/asiloisad-pulsar/quick-layout/blob/master/assets/buttons.png?raw=true)
 
 Fork of [layout-control](https://github.com/rafamel/atom-layout-control).
 
 ## Features
 
-- **Title bar buttons**: Quick layout switching with independent title-bar control tiles (requires [title-bar](https://github.com/asiloisad/pulsar-title-bar)).
+- **Title bar buttons**: Quick layout switching with independent title-bar control tiles (requires [title-bar](https://github.com/asiloisad-pulsar/title-bar)).
 - **Dock toggles**: Left, bottom, and right dock visibility.
 - **Layout presets**: 1-4 columns, 1-3 rows, and 2x2 grid.
 - **Hover reveal**: Buttons appear on title bar hover.
